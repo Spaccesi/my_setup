@@ -33,3 +33,6 @@ alias up='dot package update_all'
 alias python="python3"
 alias venv="python3 -m venv venv"
 alias vactivate="source venv/bin/activate"
+
+# Docker
+alias dc="dot docker connect"
