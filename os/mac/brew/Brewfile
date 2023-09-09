@@ -1,0 +1,39 @@
+# specify a directory to install
+cask_args appdir: '/Applications'
+
+# brew
+brew 'wireguard-go'
+brew 'node'
+brew 'pnpm'
+brew 'exa'
+brew 'fvm'
+# Casks
+cask 'raycast'
+cask 'iterm2'
+cask 'visual-studio-code'
+cask 'postman'
+cask 'alfred'
+cask 'figma'
+cask 'docker'
+cask 'whatsapp'
+cask 'google-chrome'
+cask 'google-drive'
+cask 'android-studio'
+# cask 'discord'
+cask 'slack'
+cask 'microsoft-teams'
+cask 'tempbox'
+# cask 'loom'
+# cask 'bitwarden'
+cask 'spotify'
+cask 'notion'
+cask 'autodesk-fusion360'
+cask 'prusaslicer'
+cask 'flutter'
+
+# Missing from brew
+# Chitubox
+# App Store
+# adGuard
+# Xcode
+# Trello
