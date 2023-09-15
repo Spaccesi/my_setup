@@ -30,6 +30,7 @@ cask 'notion'
 cask 'autodesk-fusion360'
 cask 'prusaslicer'
 cask 'flutter'
+cask 'fork'
 
 # Missing from brew
 # Chitubox
