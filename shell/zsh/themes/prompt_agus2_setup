@@ -1,0 +1,1 @@
+'builtin' 'source' "${DOTFILES_PATH:-${${(%):-%x}:A:h}}/shell/zsh/themes/agus2.zsh-theme"
