@@ -33,6 +33,8 @@ cask 'flutter'
 cask 'fork'
 cask 'autofirma'
 
+cask 'cron'
+
 # Missing from brew
 # Chitubox
 # App Store
