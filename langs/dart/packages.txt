@@ -1,0 +1,2 @@
+melos 3.2.0
+very_good_cli 0.17.1

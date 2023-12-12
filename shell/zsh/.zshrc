@@ -27,3 +27,9 @@ prompt ${DOTLY_THEME:-codely}
 source "$DOTLY_PATH/shell/zsh/bindings/dot.zsh"
 source "$DOTLY_PATH/shell/zsh/bindings/reverse_search.zsh"
 source "$DOTFILES_PATH/shell/zsh/key-bindings.zsh"
+
+## [Completion]
+## Completion scripts setup. Remove the following line to uninstall
+[[ -f /Users/agustin/.dart-cli-completion/zsh-config.zsh ]] && . /Users/agustin/.dart-cli-completion/zsh-config.zsh || true
+## [/Completion]
+

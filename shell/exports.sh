@@ -45,6 +45,7 @@ path=(
 	"/usr/sbin"
 	"/sbin"
 	"$path"
+  "$HOME/.pub-cache/bin"
 )
 
 export path

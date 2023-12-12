@@ -21,6 +21,9 @@ alias gpsf="git push --force"
 alias gpl="git pull --rebase --autostash"
 alias gb="git branch"
 alias gl='$DOTLY_PATH/bin/dot git pretty-log'
+alias gplf="git pull --force"
+alias gst="git stash"
+alias gsp="git stash pop"
 
 # Utils
 alias k='kill -9'
@@ -36,3 +39,6 @@ alias vactivate="source venv/bin/activate"
 
 # Docker
 alias dc="dot docker connect"
+
+# Simulator
+alias simu="open -a Simulator.app"
