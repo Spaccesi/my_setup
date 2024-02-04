@@ -31,7 +31,6 @@ brew "denisidoro/tools/docpars"
 # brew "leoafarias/fvm/fvm"
 cask "autodesk-fusion360"
 cask "autofirma", args: { appdir: "/Applications" }
-cask "cron"
 cask "docker"
 cask "figma"
 cask "flutter", args: { appdir: "/Applications" }
@@ -41,7 +40,6 @@ cask "google-drive"
 cask "iterm2"
 cask "microsoft-teams", args: { appdir: "/Applications" }
 cask "notion"
-cask "orbstack"
 cask "postman"
 cask "prusaslicer", args: { appdir: "/Applications" }
 cask "raycast"
@@ -50,6 +48,7 @@ cask "tableplus"
 cask "tempbox"
 cask "visual-studio-code", args: { appdir: "/Applications" }
 cask "whatsapp"
+cask "home-assistant"
 # mas "AdGuard for Safari", id: 1440147259
 mas "Bitwarden", id: 1352778147
 mas "Friendly Streaming", id: 553245401
