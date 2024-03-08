@@ -33,3 +33,11 @@ source "$DOTFILES_PATH/shell/zsh/key-bindings.zsh"
 [[ -f /Users/agustin/.dart-cli-completion/zsh-config.zsh ]] && . /Users/agustin/.dart-cli-completion/zsh-config.zsh || true
 ## [/Completion]
 
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/agustin/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/agustin/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/agustin/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/agustin/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+
+export "JAVA_HOME=/opt/homebrew/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home"
