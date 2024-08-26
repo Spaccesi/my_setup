@@ -30,28 +30,29 @@ brew "dart-lang/dart/dart", link: false
 brew "denisidoro/tools/docpars"
 # brew "leoafarias/fvm/fvm"
 cask "autodesk-fusion360"
-cask "autofirma", args: { appdir: "/Applications" }
+# cask "autofirma", args: { appdir: "/Applications" }
 cask "docker"
 cask "figma"
 cask "flutter", args: { appdir: "/Applications" }
 cask "fork"
 cask "google-chrome"
-cask "google-drive"
+# cask "google-drive"
 cask "iterm2"
 cask "microsoft-teams", args: { appdir: "/Applications" }
 cask "notion"
 cask "postman"
-cask "prusaslicer", args: { appdir: "/Applications" }
+# cask "prusaslicer", args: { appdir: "/Applications" }
+# cask "orcaslicer"
 cask "raycast"
 cask "spotify"
 cask "tableplus"
 cask "tempbox"
 cask "visual-studio-code", args: { appdir: "/Applications" }
-cask "whatsapp"
-cask "home-assistant"
+# cask "whatsapp"
+# cask "home-assistant"
 # mas "AdGuard for Safari", id: 1440147259
-mas "Bitwarden", id: 1352778147
-mas "Friendly Streaming", id: 553245401
+# mas "Bitwarden", id: 1352778147
+# mas "Friendly Streaming", id: 553245401
 mas "Notion Web Clipper", id: 1559269364
 mas "Xcode", id: 497799835
 # vscode "4ops.terraform"
