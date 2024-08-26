@@ -45,6 +45,7 @@ cask "postman"
 # cask "orcaslicer"
 cask "raycast"
 cask "spotify"
+cask "hoppscotch"
 cask "tableplus"
 cask "tempbox"
 cask "visual-studio-code", args: { appdir: "/Applications" }
