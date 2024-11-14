@@ -41,3 +41,10 @@ if [ -f '/Users/agustin/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Use
 if [ -f '/Users/agustin/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/agustin/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
 
 export "JAVA_HOME=/opt/homebrew/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home"
+PATH=~/.console-ninja/.bin:$PATH
+# Android utilities
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
