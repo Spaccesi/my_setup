@@ -24,6 +24,7 @@ alias gl='$DOTLY_PATH/bin/dot git pretty-log'
 alias gplf="git pull --force"
 alias gst="git stash"
 alias gsp="git stash pop"
+alias gbuu="git branch --unset-upstream"
 
 # Utils
 alias k='kill -9'
