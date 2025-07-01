@@ -17,6 +17,10 @@ source "$ZIM_HOME/init.zsh"
 ZSH_AUTOSUGGEST_USE_ASYNC=true
 ZSH_HIGHLIGHT_MAXLENGTH=300
 
+# Comment the following line to use case-sensitive completion.
+zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|=*' 'l:|=* r:|=*'
+autoload -Uz compinit && compinit
+
 source "$DOTFILES_PATH/shell/init.sh"
 
 fpath=("$DOTFILES_PATH/shell/zsh/themes" "$DOTFILES_PATH/shell/zsh/completions" "$DOTLY_PATH/shell/zsh/themes" "$DOTLY_PATH/shell/zsh/completions" $fpath)
@@ -41,7 +45,9 @@ if [ -f '/Users/agustin/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Use
 if [ -f '/Users/agustin/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/agustin/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
 
 export "JAVA_HOME=/opt/homebrew/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home"
+
 PATH=~/.console-ninja/.bin:$PATH
+
 # Android utilities
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
