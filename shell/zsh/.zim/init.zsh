@@ -1,2 +1,4 @@
-zimfw() { source /Users/agustin/.dotfiles/shell/zsh/.zim/zimfw.zsh "${@}" }
-zmodule() { source /Users/agustin/.dotfiles/shell/zsh/.zim/zimfw.zsh "${@}" }
+# FILE AUTOMATICALLY GENERATED FROM /Users/agustin/.zimrc
+# EDIT THE SOURCE FILE AND THEN RUN zimfw build. DO NOT DIRECTLY EDIT THIS FILE!
+
+if [[ -e ${ZIM_CONFIG_FILE:-${ZDOTDIR:-${HOME}}/.zimrc} ]] zimfw() { source "${HOME}/.dotfiles/shell/zsh/.zim/zimfw.zsh" "${@}" }
