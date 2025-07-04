@@ -43,3 +43,6 @@ alias dc="dot docker connect"
 
 # Simulator
 alias simu="open -a Simulator.app"
+
+# Emulator
+alias emu='emulator -avd "$(emulator -list-avds | head -n 1)"'
