@@ -1,0 +1,11 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Spaccesi
+	email = agustinspaccesi@gmail.com
+# Please adapt and uncomment the following lines:
+#	name = Agustin
+#	email = agustinspaccesi@gmail.com
+[pull]
+	ff = only
+[core]
+	excludesfile = /Users/agustin/.dotfiles/git/.gitignore_global
